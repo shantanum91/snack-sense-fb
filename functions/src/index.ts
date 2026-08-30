@@ -12,5 +12,5 @@ import * as logger from "firebase-functions/logger";
 
 export const getAppVersion = onRequest({ cors: true }, (req, res) => {
     logger.info("Retriving app version", { structuredData: true });
-    res.json({ latestVersion: "1.0.12" });
+    res.json({ latestVersion: "1.0.16" });
 }); 
